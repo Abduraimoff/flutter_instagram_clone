@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:instagram_clone/pages/home_page.dart';
+import 'package:instagram_clone/pages/search_page.dart';
 import 'package:instagram_clone/util/bottom_nav_bar_icons.dart';
 
 class RootApp extends StatefulWidget {
@@ -15,7 +16,7 @@ class _RootAppState extends State<RootApp> {
 
   List pages = [
     HomePage(),
-    Center(child: Text('Search')),
+    SearchPage(),
     Center(child: Text('Add')),
     Center(child: Text('Activity')),
     Center(child: Text('Account')),
